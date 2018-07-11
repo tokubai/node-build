@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -ex
 
 if [ -z "${PREFIX}" ]; then
   PREFIX="/usr/local"
