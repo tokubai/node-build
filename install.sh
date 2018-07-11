@@ -16,8 +16,4 @@ for file in bin/*; do
   cp "${file}" "${BIN_PATH}"
 done
 
-for file in share/node-build/*; do
-  cp "${file}" "${SHARE_PATH}"
-done
-
 echo "Installed node-build at ${PREFIX}"
